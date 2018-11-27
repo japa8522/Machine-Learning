@@ -22,6 +22,7 @@ test_set <- dataset[split == F, ]
 
 
 
+
 # Fitting multiple linear regression on Training Set
 regressor <- lm(Profit ~ R.D.Spend + Administration + Marketing.Spend + State
                   , data = training_set)
